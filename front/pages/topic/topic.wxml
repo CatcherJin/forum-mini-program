@@ -1,0 +1,9 @@
+<view class="weui-panel__bd">
+  <view wx:for="{{topics}}" wx:for-item="topic" wx:key="key" class="weui-media-box weui-media-box_appmsg">
+    <view class="weui-media-box__bd">
+                <text class="index-poster-name">{{topic.title}}\n</text>
+                <text class="index-poster-kind">{{topic.content}}</text>
+    </view>
+  </view>
+</view>
+<view class="weui-footer">2018</view>

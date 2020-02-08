@@ -1,0 +1,20 @@
+.topic-summary {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+.index-poster-name {
+  font-size:18px;
+  font-family:Microsoft YaHei,Arial;
+  font-weight:bold;
+  display:block;
+}
+.index-poster-kind {
+ margin-left: 2px;
+ font-family: "Microsoft YaHei",Arial;
+ font-size: 30rpx;
+ height: 26px;
+ overflow: hidden;
+ text-overflow: ellipsis;
+}
